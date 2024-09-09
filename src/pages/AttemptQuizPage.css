@@ -1,0 +1,65 @@
+/* Ensure you have these styles in your CSS file */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .quiz-content {
+    max-width: 600px; /* Adjust as needed */
+    width: 100%;
+    text-align: center; /* Center text inside the container */
+  }
+  
+  .question-container {
+    margin-bottom: 20px;
+  }
+  
+  .option-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5px 0;
+  }
+  
+  .option-container input {
+    margin-right: 10px; /* Space between radio button and label */
+    margin-left: 10px; /* Ensure there's no margin on the left */
+  }
+  
+  .option-container label {
+    margin: 0; /* Ensure there's no margin around the label */
+  }
+  
+  .feedback.correct {
+    color: green;
+  }
+  
+  .feedback.incorrect {
+    color: red;
+  }
+  
+  .result-summary {
+    margin-top: 20px;
+  }
+  
+  .share-options {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .share-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .share-icon {
+    margin-bottom: 5px;
+  }
+  

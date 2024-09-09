@@ -1,0 +1,9 @@
+/* CreateQuizPage.css */
+
+.create-quiz-page {
+    height: 100vh; /* Full viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  

@@ -1,0 +1,119 @@
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+#headerBar{
+  display: flex;
+  width: 100vw;
+}
+
+.navContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items:center;
+}
+
+.login-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-button:hover {
+  background-color: #45a049;
+}
+
+.login-button-container {
+  margin-top: 15px;
+}
+
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: #e53935;
+}
+
+.logout-button-container {
+  margin-left: 20px; 
+}
+
+
+.navContainer
+
+ul li {
+  margin: 0 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.home-container {
+  text-align: center;
+}
+
+.home-image {
+  width: 100%;
+  max-width: 20%;
+  height: auto;
+  max-height: 80vh;
+  padding-bottom: 15px;
+}
+
+/* Target only the radio button and label inside the quiz container */
+.container .quiz-content .option-container {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+  align-content: stretch;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.container .quiz-content .option-container input {
+  margin-right: 10px;
+}
+
+.container .quiz-content .option-container label {
+  white-space: nowrap;
+}
+
+
+@media (max-width: 768px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center horizontally as well */
+    min-height: 100vh; /* Ensures the container takes up full viewport height */
+  }
+
+  .home-container h1 {
+    margin: 0; /* Optional: removes default margin for better centering */
+  }
+}
